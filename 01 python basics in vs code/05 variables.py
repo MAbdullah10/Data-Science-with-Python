@@ -1,13 +1,13 @@
-#VARIABLES: objects containing specific values
+# #VARIABLES: objects containing specific values
 
 x = 5       #numeric or integer varaible
-print(x)
+# print(x)
 
 y = "you are learning python with Abdullah"     #string variable
-print(y)
+# # print(y)
 
-x = x+10
-print(x)
+# x = x+10
+# print(x)
 
 #Types of varibales
 print(type(x))
@@ -21,6 +21,9 @@ print(type(y))
 # 5  The variable should not be a keyword in python
 # 6  The variable should not be a reserved word in python
 
+
+_1 = 9
+print (_1)
 fruit_basket = 8
 fruit_basket = "mangoes","oranges"
 print(fruit_basket)

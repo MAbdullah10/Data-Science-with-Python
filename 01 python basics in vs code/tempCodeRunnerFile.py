@@ -1,0 +1,1 @@
+print("Hi name") # logical error

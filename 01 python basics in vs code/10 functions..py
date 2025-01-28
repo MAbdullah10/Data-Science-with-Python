@@ -9,7 +9,7 @@ print("Learning python")
 def print_func():
     print("Learning python")
     print("Learning python")
-    print("Learning python")
+    print("Learning java")
 
 print_func()
 
@@ -28,7 +28,7 @@ def print_func(text):
     print(text)
     print(text)    
     
-print_func("That's the third way ")
+print_func("That's the third method ")
 
 #Defining func with if,elif statements
 def school_calc(age,name):
@@ -39,5 +39,7 @@ def school_calc(age,name):
     else:
         print(name," can't go to school")
 
-school_calc(2,"Ali")
+age = int(input("What is your age: "))
+name = input("Enter your name: ")
+school_calc(age,name)
 
