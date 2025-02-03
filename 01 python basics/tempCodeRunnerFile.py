@@ -1,1 +1,1 @@
-print("Hi name") # logical error
+print(25/0) #Runtime Error

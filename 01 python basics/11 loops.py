@@ -12,6 +12,6 @@ for x in range(5,10):
 #array
 days = ["Mon", "Tue","Wed","Thurs","Fri","Sat","Sun"]
 for d in days:
-    if (d=="Thurs"):break   #loop stops and exists
-    #if (d=="Thurs"):continue#it will skip this value
+    #if (d=="Thurs"):break   #loop stops and exists
+    if (d=="Thurs"):continue#it will skip this value
     print(d)
